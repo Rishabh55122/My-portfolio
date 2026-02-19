@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Chaudhary | Brand Architect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Film Grain Overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Loading Screen (Cinematic Blueprint) -->
+    <div id="loader" class="loader-container">
+        <div class="loader-grid-bg"></div>
+
+        <!-- Center Content -->
+        <div class="loader-content">
+            <div class="loader-logo-frame">
+                <span class="loader-logo-text">RC.</span>
+                <div class="loader-scanline"></div>
+            </div>
+            <div class="loader-title">VISUAL INTELLIGENCE</div>
+            <div class="loader-status">INITIALIZING SYSTEM...</div>
+        </div>
+
+        <!-- Corner Data -->
+        <div class="loader-corner tl">
+            <span>SYS_CHECK: OK</span>
+            <span>MEM: <span id="mem-val">45</span>%</span>
+        </div>
+        <div class="loader-corner tr">
+            <span>LOC: NEW_PORTFOLIO</span>
+            <span>V.2.0.25</span>
+        </div>
+        <div class="loader-corner bl">
+            <span>LAT: 28.6139° N</span>
+            <span>LNG: 77.2090° E</span>
+        </div>
+        <div class="loader-corner br">
+            <span id="loader-counter">00</span>
+            <span class="loader-label">LOAD_PROGRESS</span>
+        </div>
+    </div>
+
+    <!-- Navigation (Floating Pill) -->
+    <nav class="nav-container">
+        <a href="#" class="logo">RC.</a>
+        <div class="nav-pill">
+            <!-- Mobile Nav Toggle -->
+            <button id="nav-toggle" class="nav-toggle-btn" aria-label="Toggle Menu">
+                <span class="nav-icon">＋</span>
+            </button>
+
+            <!-- Nav Links (Desktop) / Drawer (Mobile) -->
+            <div class="nav-links-wrapper" id="nav-drawer">
+                <a href="#work" class="nav-item">Works</a>
+                <a href="#philosophy" class="nav-item">Philosophy</a>
+                <a href="#about" class="nav-item">About</a>
+                <span class="nav-divider">|</span>
+                <a href="#contact" class="nav-item contact-link">Contact</a>
+            </div>
+
+            <!-- Blueprint Toggle -->
+            <button id="blueprint-toggle" class="bp-toggle-btn" title="Toggle Blueprint Mode">
+                <span class="bp-icon">▤</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <!-- Background Gradient -->
+        <div class="hero-bg-gradient"></div>
+
+        <!-- Vertical Watermark -->
+        <div class="hero-watermark">Chaudhary</div>
+
+        <div class="hero-content container">
+            <!-- Top Tag -->
+            <div class="hero-top-tag">
+                <span class="gold-dash"></span>
+                Graphic Designer • Brand Identity Specialist
+            </div>
+
+            <!-- Main Title -->
+            <h1 class="hero-title">Rishabh<br><span class="hero-italic"> </span>Chaudhary</span></h1>
+
+            <!-- Description Row -->
+            <div class="hero-desc-row">
+                <p class="hero-desc-text">
+                    Transforming brand narratives into timeless<br>
+                    visual systems with production-grade precision.
+                </p>
+                <a href="#visual-intelligence" class="btn-solid-gold">View Archive</a>
+            </div>
+        </div>
+
+        <!-- Bottom Left Availability -->
+        <div class="availability-bar">
+            <span class="status-dot"></span>
+            Availability: Selected Collaborations
+        </div>
+    </header>
+
+    <!-- About Section (High End) -->
+    <section id="about" class="section-padding container">
+        <div class="about-grid">
+            <div class="about-image-wrapper">
+                <div class="about-image" style="background-image: url('images/portrait.jpg');"></div>
+                <!-- Identity Specialist Badge -->
+                <div class="identity-badge">Identity Specialist</div>
+            </div>
+
+            <div class="about-content">
+                <div class="section-label">The Philosophy</div>
+                <h2 class="about-headline">The Quiet Art of <br><span class="serif-italic">Visual Intent.</span></h2>
+
+                <div class="about-body-group">
+                    <div class="body-indicator"></div>
+                    <div class="about-text-content">
+                        <p>Bridging the gap between production precision and creative freedom. With a deep foundation in
+                            Printing & Packaging Technology, I approach every project with a blend of technical mastery
+                            and artistic intuition.</p>
+                        <p>My design philosophy is rooted in the pursuit of visual clarity and intentional storytelling.
+                            I believe that branding is not just about aesthetics, but about creating systems that speak
+                            to the core of an audience.</p>
+                    </div>
+                </div>
+
+                <div class="about-footer">
+                    <span>Location / India · Working Globally</span>
+                    <span>Active / 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section (New) -->
+    <section id="philosophy" class="section-padding container">
+        <div class="philosophy-wrapper">
+            <div class="section-label centered">Philosophy</div>
+
+            <h2 class="philosophy-quote">
+                Good design is <span class="quote-dim">quiet at<br>first,</span> memorable later.
+            </h2>
+
+            <div class="philosophy-grid">
+                <div class="philo-item">
+                    <h3 class="philo-title">Storytelling</h3>
+                    <p class="philo-desc">We don't just create logos; we build narratives that resonate with the human
+                        experience.</p>
+                </div>
+                <div class="philo-item">
+                    <h3 class="philo-title">Clarity</h3>
+                    <p class="philo-desc">Simplifying the complex until only the essential truth of the brand remains.
+                    </p>
+                </div>
+                <div class="philo-item">
+                    <h3 class="philo-title">Intent</h3>
+                    <p class="philo-desc">Every stroke, every typeface, and every color choice is a calculated decision.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Type Foundry (Typography Lab) -->
+    <section id="type-foundry" class="tf-section">
+        <!-- Top Label -->
+        <div class="tf-header">
+            <span class="tf-label">The Type Foundry / Interactive Kerning</span>
+        </div>
+
+        <!-- Main Interactive Display -->
+        <div class="tf-display-container">
+            <div class="tf-word-row">
+                <span class="tf-char">E</span><span class="tf-char">D</span><span class="tf-char">I</span><span
+                    class="tf-char">T</span><span class="tf-char">O</span><span class="tf-char">R</span><span
+                    class="tf-char">I</span><span class="tf-char">A</span><span class="tf-char">L</span>
+            </div>
+            <div class="tf-word-row italic">
+                <span class="tf-char">P</span><span class="tf-char">R</span><span class="tf-char">E</span><span
+                    class="tf-char">C</span><span class="tf-char">I</span><span class="tf-char">S</span><span
+                    class="tf-char">I</span><span class="tf-char">O</span><span class="tf-char">N</span>
+            </div>
+        </div>
+
+        <!-- Heads-Up Display (HUD) -->
+        <div class="tf-hud">
+            <div class="hud-group">
+                <span class="hud-label">KERNING_VAL:</span>
+                <span id="kerning-value" class="hud-value">-0.00pt</span>
+                <div class="hud-bar-track">
+                    <div id="kerning-bar" class="hud-bar-fill"></div>
+                </div>
+            </div>
+
+            <div class="hud-center-msg">
+                MOVE MOUSE TO RECALIBRATE TYPOGRAPHY ENGINE
+            </div>
+
+            <div class="hud-group right-align">
+                <div class="hud-bar-track">
+                    <div id="weight-bar" class="hud-bar-fill"></div>
+                </div>
+                <span class="hud-label">WEIGHT_OPT:</span>
+                <span id="weight-value" class="hud-value">500WGHT</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Intelligence (Works Redesign) -->
+    <section id="visual-intelligence" class="vi-section">
+        <div class="vi-header container">
+            <h2 class="vi-title">Visual<br>Intelligence</h2>
+            <div class="vi-meta">
+                <span>[MODE: MULTIDISCIPLINARY_CURATION]</span>
+                <span>[ACCESS: GRANTED]</span>
+                <span>[CLICK_CATEGORY_TO_EXPAND]</span>
+            </div>
+        </div>
+
+        <div class="vi-grid">
+            <!-- Identity -->
+            <a href="work-identity.html" class="vi-col">
+                <div class="vi-bg" style="background-image: url('images/logo.jpeg');">
+                </div>
+                <div class="vi-overlay"></div>
+                <div class="vi-content">
+                    <span class="vi-module">MODULE_01</span>
+                    <h3 class="vi-label">Identity</h3>
+                    <div class="vi-icon">✦</div>
+                </div>
+            </a>
+
+            <!-- Visual -->
+            <a href="work-visual.html" class="vi-col">
+                <div class="vi-bg" style="background-image: url('images/posters.jpeg');">
+                </div>
+                <div class="vi-overlay"></div>
+                <div class="vi-content">
+                    <span class="vi-module">MODULE_02</span>
+                    <h3 class="vi-label">Visual</h3>
+                    <div class="vi-icon">✦</div>
+                </div>
+            </a>
+
+            <!-- Tactile -->
+            <a href="work-packaging.html" class="vi-col">
+                <div class="vi-bg" style="background-image: url('images/tactile.jpeg');">
+                </div>
+                <div class="vi-overlay"></div>
+                <div class="vi-content">
+                    <span class="vi-module">MODULE_03</span>
+                    <h3 class="vi-label">Tactile</h3>
+                    <div class="vi-icon">✦</div>
+                </div>
+            </a>
+
+            <!-- Digital -->
+            <a href="work-digital.html" class="vi-col">
+                <div class="vi-bg" style="background-image: url('images/digital.jpeg');">
+                </div>
+                <div class="vi-overlay"></div>
+                <div class="vi-content">
+                    <span class="vi-module">MODULE_04</span>
+                    <h3 class="vi-label">Digital</h3>
+                    <div class="vi-icon">✦</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section">
+        <div class="marquee-content">
+            <span class="marquee-text">Brand Strategy</span>
+            <span class="marquee-text">Visual Identity</span>
+            <span class="marquee-text">Art Direction</span>
+            <span class="marquee-text">Editorial Design</span>
+            <span class="marquee-text">Brand Strategy</span>
+            <span class="marquee-text">Visual Identity</span>
+        </div>
+    </section>
+
+    <!-- Timeline (The Journey) -->
+    <!-- The Archives (Blueprint Style) -->
+    <section class="section-padding container bp-section">
+        <!-- Background Grid handled in CSS -->
+
+        <div class="archive-header-row">
+            <div class="archive-subtitle">TECHNICAL EVOLUTION</div>
+            <h2 class="archive-heading">The <span class="serif-italic">Journey</span></h2>
+        </div>
+
+        <div class="blueprint-container">
+            <!-- Phase 01 -->
+            <div class="bp-row">
+                <div class="bp-left">
+                    <div class="bp-phase">PHASE_01</div>
+                    <div class="bp-year">2023</div>
+                </div>
+                <div class="bp-card">
+                    <div class="bp-card-header">
+                        <div class="bp-main-info">
+                            <h3 class="bp-role">Graphic Designer</h3>
+                            <div class="bp-company">Freelance</div>
+                        </div>
+                        <div class="bp-tech-specs">
+                            <span>COMP_ID: DES-001</span>
+                            <span>LOC: Remote</span>
+                        </div>
+                    </div>
+                    <div class="bp-card-body">
+                        <p class="bp-desc">Collaborated with clients to translate their ideas into impactful graphic
+                            elements, ensuring satisfaction and brand consistency.</p>
+                        <div class="bp-focus-areas">
+                            <div class="focus-label">FOCUS AREAS</div>
+                            <div class="focus-tags">
+                                <span>TYPOGRAPHY</span>
+                                <span>AESTHETICS</span>
+                                <span>BRAND IDENTITY</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Corner decorations -->
+                    <div class="corner-tl"></div>
+                    <div class="corner-br"></div>
+                </div>
+            </div>
+
+            <!-- Phase 02 -->
+            <div class="bp-row">
+                <div class="bp-left">
+                    <div class="bp-phase">PHASE_02</div>
+                    <div class="bp-year">2024</div>
+                </div>
+                <div class="bp-card">
+                    <div class="bp-card-header">
+                        <div class="bp-main-info">
+                            <h3 class="bp-role">Young Innovator Internship Challenge [2nd Edition]</h3>
+                            <div class="bp-company">Intern | Remote </div>
+                        </div>
+                        <div class="bp-tech-specs">
+                            <span>COMP_ID: ART-094</span>
+                            <span>LOC: Remote</span>
+                        </div>
+                    </div>
+                    <div class="bp-card-body">
+                        <p class="bp-desc">Collaborated on technology-driven projects focused on innovation and
+                            practical problem-solving. Developed strategies to implement innovative solutions for
+                            various challenges.</p>
+                        <div class="bp-focus-areas">
+                            <div class="focus-label">FOCUS AREAS</div>
+                            <div class="focus-tags">
+                                <span>NEW SKILLS</span>
+                                <span>PERSONAL BRANDING</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="corner-tl"></div>
+                    <div class="corner-br"></div>
+                </div>
+            </div>
+
+            <!-- Phase 03 -->
+            <div class="bp-row">
+                <div class="bp-left">
+                    <div class="bp-phase">PHASE_03</div>
+                    <div class="bp-year">2024</div>
+                </div>
+                <div class="bp-card">
+                    <div class="bp-card-header">
+                        <div class="bp-main-info">
+                            <h3 class="bp-role">Upskill Career With Teachnook Program Collaboration With IIT Roorkee -
+                                Teachnook</h3>
+                            <div class="bp-company">Graphic designer Intern | Remote</div>
+                        </div>
+                        <div class="bp-tech-specs">
+                            <span>COMP_ID: ARC-101</span>
+                            <span>LOC: Remote</span>
+                        </div>
+                    </div>
+                    <div class="bp-card-body">
+                        <p class="bp-desc">Designed and developed marketing materials, including brochures, social media
+                            graphics, and branding collateral. Contributed to the creative direction of campaigns to
+                            enhance visual communication and engagement.</p>
+                        <div class="bp-focus-areas">
+                            <div class="focus-label">FOCUS AREAS</div>
+                            <div class="focus-tags">
+                                <span>DESIGN</span>
+                                <span>BRANDING</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="corner-tl"></div>
+                    <div class="corner-br"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spec Refinement Graphic -->
+        <div class="spec-graphic">
+            <div class="spec-line"></div>
+            <div class="spec-dot"></div>
+            <p class="spec-text">Continuously refining the spec.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Contact Suite (Redesign) -->
+    <section id="contact" class="section-padding container">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="section-label text-gold">Protocol: Established</div>
+                <h2 class="contact-headline">Let's build <br><span class="serif-italic text-gold">meaningful</span><br>
+                    things.</h2>
+                <p class="contact-sub">Available for select brand collaborations and <br>design consultations worldwide.
+                </p>
+
+                <div class="contact-meta">
+                    <a href="mailto:hello@rishabh.studio" class="contact-email">rishabhchaudhary5454@gmail.com</a>
+
+                    <div class="contact-socials">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Behance</a>
+                        <a href="#" class="social-link">Linkedin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <form class="contact-form-inner">
+                    <div class="form-group">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-input" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-input" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Project Details</label>
+                        <textarea class="form-input" rows="1" placeholder="What are we creating?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-block-gold">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
